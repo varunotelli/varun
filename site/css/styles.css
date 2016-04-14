@@ -1,32 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+
 .navbar-brand h1{
 	text-align: left;
 	color:white;
-	padding: 5px;
+	padding-left: 5px;
 	font-size: 250%;
 	font-weight: bold;
 	text-shadow: 2px 2px 4px #000000;
-	margin-left: 10px;
-	font-family: Overlock SC
+	margin-top: 0;
+	margin-bottom: 0;
+
+	font-family: Overlock SC;
+	clear: both;
+	
 
 
 
 }
 
+#navlist{
+	margin-top: 10px;
+
+}
 #nav-list a{
 	color:white;
 	text-align: center;
-	clear: left;
+	clear: right;
 	margin: 5px;
-	float:right;
+	
 	padding: 5px;
-
+	font-size: 1.5em;
 	font-family: Lobster;
 
 }
 
-#navlist a:hover{
-	background: white;
-
+#nav-list a:hover {
+  background: white;
+  color:black;
 }
 
 .navbar-default{
@@ -40,11 +52,14 @@ body{
 img{
 	float: left;
 	padding: 5px;
+	clear:;
 
 }
 .glyphicon
 {
 
-clear left;
-
+padding:10px;
+}
+button{
+	padding:0px;
 }
