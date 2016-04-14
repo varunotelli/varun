@@ -14,9 +14,12 @@
 
 #nav-list a{
 	color:white;
-	float:right;
-	margin-right: 3px;
 	text-align: center;
+	clear: left;
+	margin: 5px;
+	float:right;
+	padding: 5px;
+
 	font-family: Lobster;
 
 }
