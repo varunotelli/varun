@@ -76,7 +76,9 @@ section{
 	
 
 }
-
+p{
+	padding: 5px;
+}
 
 section h3{
 	color: black;
