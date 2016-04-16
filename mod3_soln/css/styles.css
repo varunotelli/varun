@@ -2,10 +2,11 @@
 	box-sizing: border-box;
 }
 
-h1{
+h3,h1{
 	text-align: center;
 	font-weight: bold;
 }
+
 .navbar-brand h1{
 	
 	color:white;
@@ -51,7 +52,7 @@ background-color: #000066;
 }
 
 body{
-	background-color: #5f82cb;
+	background-color: white;
 }
 
 
@@ -61,10 +62,10 @@ button{
 
 
 section{
-	height: 1000px;
+	
 	border: 1px;
-	background:red;
-	color: blue;
+	background:gray;
+	color: black;
 	
 	position: relative;
 	font-weight: bold;
@@ -74,25 +75,13 @@ section{
 	
 
 }
-#chicken{
 
-}
-	
 
-#beef{
-	background: green;
-	color:yellow;
+section h3{
+	color: black;
 	
 }
 
-#sushi{
-	background: gray;
-	color: black;
-	}
-
-section h1{
-	color: black;
-}
 
 
 @media (min-width: 992px) 
