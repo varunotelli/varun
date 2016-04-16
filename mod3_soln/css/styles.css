@@ -66,6 +66,7 @@ section{
 	border: 1px;
 	background:gray;
 	color: black;
+	padding: 5px;
 	
 	position: relative;
 	font-weight: bold;
